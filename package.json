@@ -1,6 +1,6 @@
 {
   "name": "devcontainerize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to turn any project into a devcontainer compatible project",
   "main": "index.js",
   "scripts": {
