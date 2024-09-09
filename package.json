@@ -1,0 +1,21 @@
+{
+  "name": "devcontainerize",
+  "version": "1.0.0",
+  "description": "CLI tool to turn any project into a devcontainer compatible project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "devcontainerize": "./dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.5.4"
+  }
+}
